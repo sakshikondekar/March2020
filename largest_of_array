@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int i, n;
-    float arr[100];
+    unsigned float arr[100];
     printf("Enter the number of elements (1 to 100): ");
     scanf("%d", &n);
     for (i = 0; i < n; ++i) {
@@ -16,4 +16,4 @@ int main() {
     printf("Largest element = %.2f", arr[0]);
     return 0;
 }
-Output
+
